@@ -16,9 +16,9 @@ install
 BEFORE
 ```
 // from $HOME_PROJECT/lib/math/
-myLib = require('../myLibrary');
-myUtils = require('../../utils/myUtils');
-myTest = require('../../test/myTest');
+var myLib = require('../myLibrary');
+var myUtils = require('../../utils/myUtils');
+var myTest = require('../../test/myTest');
 ``` 
 
 AFTER
@@ -27,9 +27,9 @@ AFTER
 
 require('rootpath')();
 
-myLib = require('lib/myLibrary');
-myUtils = require('utils/myUtils');
-myTest = require('test/myTest');
+var myLib = require('lib/myLibrary');
+var myUtils = require('utils/myUtils');
+var myTest = require('test/myTest');
 ```
 
 improvements
