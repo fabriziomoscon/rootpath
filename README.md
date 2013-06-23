@@ -1,9 +1,11 @@
 rootpath
 ========
 
-Little helper to specify `process.env.NODE_PATH`
+Little helper to make node.js require relative to your project root
 
-Require it in your project to set a common project ROOT for your requires
+Little helper to specify 
+
+Require it in your project to set `process.env.NODE_PATH` as the project ROOT for all your `require`
 
 install
 -------
