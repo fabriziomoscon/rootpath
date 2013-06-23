@@ -1,11 +1,10 @@
 rootpath
 ========
 
-Little helper to make node.js require relative to your project root
+Little helper to make node.js `require` relative to your project root
 
-Little helper to specify 
-
-Require it in your project to set `process.env.NODE_PATH` as the project ROOT for all your `require`
+When working on a node.js project with subfolders you might find it difficult to remember the correct relative path to include a common module or library which is not published on npm. 
+Using this module you just need to remember your own project directory structure and make all `require` absolute to the project root directory
 
 install
 -------
@@ -35,4 +34,9 @@ var myTest = require('test/myTest');
 improvements
 ------------
 
-If you find a better way to do this please fork and pull request
+forks and pull requests are welcome. There is always a better way of achieving a goal. This project will benefit from the contribution of the community
+
+license
+-------
+
+MIT
