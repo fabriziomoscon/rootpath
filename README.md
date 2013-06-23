@@ -36,6 +36,12 @@ improvements
 
 Forks and pull requests are welcome. There is always a better way of achieving a goal. This project will benefit from the contribution of the community.
 
+test
+----
+
+```bash
+npm test
+```
 license
 -------
 
