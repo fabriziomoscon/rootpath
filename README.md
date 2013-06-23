@@ -34,7 +34,7 @@ var myTest = require('test/myTest');
 improvements
 ------------
 
-forks and pull requests are welcome. There is always a better way of achieving a goal. This project will benefit from the contribution of the community
+Forks and pull requests are welcome. There is always a better way of achieving a goal. This project will benefit from the contribution of the community.
 
 license
 -------

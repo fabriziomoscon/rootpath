@@ -1,0 +1,17 @@
+{
+  "name": "rootpath",
+  "preferGlobal": false,
+  "main": "./pathSetup.js",
+  "author": {
+    "email": "mosconfabrizio@gmail.com",
+    "name": "Fabrizio Moscon"
+  },
+  "version": "0.1.0",
+  "description": "Little helper to make node.js require relative to your project root",
+  "scripts": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabriziomoscon/rootpath.git"
+  }
+}
