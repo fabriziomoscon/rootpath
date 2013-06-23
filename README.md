@@ -14,7 +14,7 @@ install
 
 
 BEFORE
-```
+```JavaScript
 // from $HOME_PROJECT/lib/math/
 var myLib = require('../myLibrary');
 var myUtils = require('../../utils/myUtils');
@@ -22,7 +22,7 @@ var myTest = require('../../test/myTest');
 ``` 
 
 AFTER
-```
+```JavaScript
 // from $HOME_PROJECT/lib/math/
 
 require('rootpath')();
