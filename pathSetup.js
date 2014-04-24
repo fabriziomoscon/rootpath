@@ -11,9 +11,9 @@ module.exports = function(filePath) {
   root = path.dirname(p);
   orig = process.env.NODE_PATH ? process.env.NODE_PATH : '';
   if (filePath) {
-    process.env.NODE_PATH = path.join(root, '../libs') + ':' + orig;
+    process.env.NODE_PATH = path.join(root, '../libs') + path.delimiter + orig;
   } else {
-    process.env.NODE_PATH = root + ':' + orig;
+    process.env.NODE_PATH = root + path.delimiter + orig;
   }
   return require('module')._initPaths();
 };
