@@ -3,10 +3,8 @@
   "preferGlobal": false,
   "main": "./pathSetup.js",
   "author": "Fabrizio Moscon <mosconfabrizio@gmail.com>",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Little helper to make node.js require relative to your project root",
-  "scripts": {},
-  "dependencies": {},
   "scripts": {
     "test": "cd test && ../node_modules/.bin/mocha ."
   },
@@ -15,7 +13,7 @@
     "url": "https://github.com/fabriziomoscon/rootpath.git"
   },
   "devDependencies": {
-    "mocha": "1.11.x"
+    "mocha": "^1.18.2"
   },
   "readmeFilename": "README.md",
   "gitHead": "8cbf637be7650e8eab50d00e675cedf73c2dcf4f",
@@ -23,7 +21,9 @@
     "url": "https://github.com/fabriziomoscon/rootpath/issues"
   },
   "keywords": [
-    "require", "require path", "require absolute path"
+    "require",
+    "require path",
+    "require absolute path"
   ],
   "license": "MIT"
 }
