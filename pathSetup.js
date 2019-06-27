@@ -1,7 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 
-module.exports = function(filePath, includePWD) {
+module.exports = function(filePath, dontIncludePWD) {
   var orig, p, root, stat;
   p = filePath || path.join(__filename, '../../');
   stat = fs.lstatSync(p);
@@ -15,7 +15,7 @@ module.exports = function(filePath, includePWD) {
   } else {
     process.env.NODE_PATH = root + path.delimiter + orig;
   }
-  if (includePWD) {
+  if (dontIncludePWD !== true) {
     process.env.NODE_PATH = process.env.PWD + ":" + process.env.NODE_PATH;
   }
   return require('module')._initPaths();
